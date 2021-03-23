@@ -1,0 +1,100 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.coverClass {
+    background-image: url('image/image-6.jpg');
+    height: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.largeTextSubclass {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 5px 5px 5px rgb(111, 71, 151);
+    font-weight: bolder;
+    color: rgb(51, 35, 66);
+}
+
+.container {
+    padding: 7%;
+}
+
+.smallTextSubclass {
+    padding-top: 20px;
+    color: rgb(97, 96, 96);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.timerClass {
+    display: flex;
+    text-align: center;
+}
+
+.timeClass {
+    float: left;
+    text-align: center;
+}
+
+.digitsClass {
+    box-shadow: 5px 5px 5px rgb(111, 71, 151);
+    background-color: rgba(230, 233, 236, 0.918);
+    border-radius: 10px;
+    border: 1px rgb(138, 101, 175);
+    border-style: solid;
+    font-size: 50px;
+    font-weight: bolder;
+    width: 90px;
+    margin: 5px;
+}
+
+.colonClass {
+    font-size: 65px;
+    margin-top: -12px;
+}
+
+.timeScaleClass {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+
+.statusClass {
+    box-shadow: 5px 5px 5px rgb(111, 71, 151);
+    background-color: rgba(230, 233, 236, 0.918);
+    border-radius: 10px;
+    border: 1px rgb(138, 101, 175);
+    border-style: solid;
+    width: 35%;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+}
+
+.buttonClass {
+    margin-top: 25px;
+}
+
+#signUpBTN {
+    background-color: rgb(51, 35, 66);
+    width: max-content;
+    border: 1px solid rgb(116, 115, 121);
+    border-radius: 15px;
+    width: 200px;
+    box-shadow: 0 2px rgb(2, 5, 149);
+}
+
+#signUpBTN:hover {
+    background-color: rgb(44, 80, 180);
+}
+
+#signUpBTN:active {
+    background-color: rgb(3, 6, 47);
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}
