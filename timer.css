@@ -90,6 +90,7 @@ html {
     border-radius: 15px;
     width: 10vw;
     box-shadow: 0 2px rgb(2, 5, 149);
+    font-size: 1vw;
 }
 
 .signBTN:hover {
