@@ -4,7 +4,7 @@ html {
     margin: 0;
 }
 
-.coverClass {
+.cover {
     background-image: url('image/image-6.jpg');
     height: 100%;
     background-position: bottom;
@@ -13,87 +13,90 @@ html {
 }
 
 .largeTextSubclass {
-    font-size: 50px;
+    font-size: 3vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 5px 5px 5px rgb(111, 71, 151);
     font-weight: bolder;
     color: rgb(51, 35, 66);
 }
 
-.container {
-    padding: 7%;
+.packge1 {
+    margin-top: 10%;
+    margin-left: 10%;
 }
 
 .smallTextSubclass {
     padding-top: 20px;
     color: rgb(97, 96, 96);
-    font-size: 20px;
+    font-size: 1.5vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.timerClass {
+.timer {
     display: flex;
+    flex-direction: row;
+    margin: auto;
     text-align: center;
+    margin-top: 10%;
 }
 
-.timeClass {
-    float: left;
-    text-align: center;
-}
-
-.digitsClass {
+.digit {
     box-shadow: 5px 5px 5px rgb(111, 71, 151);
     background-color: rgba(230, 233, 236, 0.918);
     border-radius: 10px;
     border: 1px rgb(138, 101, 175);
     border-style: solid;
-    font-size: 50px;
+    font-size: 2vw;
     font-weight: bolder;
-    width: 90px;
-    margin: 5px;
+    width: 7vw;
 }
 
-.colonClass {
-    font-size: 65px;
-    margin-top: -12px;
+.colon {
+    margin: 0px 10px 0 10px;
+    font-size: 3vw;
+    margin-top: -2%;
 }
 
-.timeScaleClass {
-    font-size: large;
+.timeScale {
+    font-size: 1vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: gray;
 }
 
-.statusClass {
+.status {
     box-shadow: 5px 5px 5px rgb(111, 71, 151);
     background-color: rgba(230, 233, 236, 0.918);
     border-radius: 10px;
     border: 1px rgb(138, 101, 175);
     border-style: solid;
-    width: 35%;
-    font-size: 60px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: darkblue;
+    font-size: 3vw;
+    font-weight: bolder;
+    width: 15vw;
 }
 
-.buttonClass {
-    margin-top: 25px;
+#statusParagraph {
+    color: green;
+    text-align: center;
 }
 
-#signUpBTN {
+.signUpBTN {
+    margin-top: 5%;
+}
+
+.signBTN {
     background-color: rgb(51, 35, 66);
     width: max-content;
     border: 1px solid rgb(116, 115, 121);
     border-radius: 15px;
-    width: 200px;
+    width: 10vw;
     box-shadow: 0 2px rgb(2, 5, 149);
 }
 
-#signUpBTN:hover {
+.signBTN:hover {
     background-color: rgb(44, 80, 180);
 }
 
-#signUpBTN:active {
+.signBTN:active {
     background-color: rgb(3, 6, 47);
     box-shadow: 0 3px #666;
     transform: translateY(2px);

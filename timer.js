@@ -1,4 +1,4 @@
-var countDownDate = new Date(2022, 2, 24, -1, 29).getTime();
+var countDownDate = new Date(2022, 2, 27, 16, 7).getTime();
 
 timeScaleList = ['days', 'hours', 'minutes', 'seconds'];
 var counter = setInterval(function() {
@@ -18,8 +18,8 @@ var counter = setInterval(function() {
     }
     if (distance < 0) {
         clearInterval(counter);
-        document.getElementById('status').innerHTML = "EXPIRED";
-        document.getElementById('status').style.color = 'red';
+        document.getElementById('statusParagraph').innerHTML = "EXPIRED";
+        document.getElementById('statusParagraph').style.color = 'red';
     }
 
 }, 1000);
